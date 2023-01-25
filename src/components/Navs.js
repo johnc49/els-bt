@@ -50,7 +50,12 @@ const Navs = () => {
             </p>
           </div>
           <div className="d-md-none position-absolute top-0 end-0">
-            <FaBars className="fs-4" variant="primary" onClick={handleShow} />
+            <FaBars
+              className="fs-3"
+              variant="primary"
+              onClick={handleShow}
+              style={{ marginTop: "15px", marginRight: "1px" }}
+            />
 
             <Offcanvas
               placement="end"

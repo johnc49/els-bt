@@ -8,7 +8,7 @@ import p1 from "../images/p1.jpg";
 
 export default function WhatsappIcon() {
   return (
-    <div className="App">
+    <div className="container">
       <FloatingWhatsApp
         phoneNumber="+260973186816"
         accountName="EL'S WORTH"
