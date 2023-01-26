@@ -7,6 +7,8 @@ import Navs from "../components/Navs";
 import Footer from "../components/Footer";
 import WhatsappIcon from "../components/WhatsappIcon";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -50,6 +52,14 @@ const Home = () => {
             </Carousel>
           </div>
         </div>
+      </div>
+      <div className="d-flex fw-bold fs-5 mt-2">
+        <Link to="products">
+          Products <AiOutlineArrowRight />
+        </Link>
+        <Link className="ms-5" to="services">
+          Services <AiOutlineArrowRight />
+        </Link>
       </div>
       <WhatsappIcon />
       <Footer />

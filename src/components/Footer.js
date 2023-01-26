@@ -3,7 +3,10 @@ import { FaEnvelope, FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="container " style={{ background: "darkgray" }}>
+    <div
+      className="container "
+      style={{ background: "darkgray", marginTop: "30px" }}
+    >
       <div>
         <p className="fw-bold">Contact Us:</p>
         <div>
