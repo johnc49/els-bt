@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Navs />
-      <div className="text-center shadow p-3 mb-5 bg-body-tertiary rounded">
+      <div className="text-center card shadow p-3 mb-5 bg-body-tertiary rounded">
         <h2 className="fw-bold text-decoration-underline">About Us</h2>
         <p className="">
           EL'S WORTH has highly qualified enginners in the filed of HVAC and you

@@ -23,7 +23,7 @@ const Products = () => {
           className="row g-4"
           style={{ marginTop: "20px", marginBottom: "20px" }}
         >
-          <div className="col-6">
+          <div className=" col md-col-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={street} />
               <Card.Body>
@@ -44,7 +44,7 @@ const Products = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-6">
+          <div className=" col md-col-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={solar} />
               <Card.Body>
@@ -60,7 +60,7 @@ const Products = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-6">
+          <div className=" col md-col-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={bator} />
               <Card.Body>

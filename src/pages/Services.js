@@ -24,7 +24,7 @@ const Services = () => {
           className="row g-4"
           style={{ marginTop: "20px", marginBottom: "20px" }}
         >
-          <div className="col-6">
+          <div className="col mdcol-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={air} />
               <Card.Body>
@@ -39,7 +39,7 @@ const Services = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-6">
+          <div className="col mdcol-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={wire} />
               <Card.Body>
@@ -55,7 +55,7 @@ const Services = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-6">
+          <div className="col mdcol-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={modern} />
               <Card.Body>
@@ -71,7 +71,7 @@ const Services = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-6">
+          <div className="col mdcol-6">
             <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={flood} />
               <Card.Body>
